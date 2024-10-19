@@ -170,7 +170,7 @@ if __name__ == "__main__":
     dataset_name = "Ransaka/SSOCR-1K"
     device = "cuda" if torch.cuda.is_available() else "cpu"
     epochs = 100
-    batch_size = 64
+    batch_size = 1024
     eval_interval = int(epochs/10)
     hidden_size = 256
 

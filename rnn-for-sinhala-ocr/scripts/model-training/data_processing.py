@@ -42,7 +42,7 @@ transform_train = torchvision.transforms.Compose(
         torchvision.transforms.ToTensor(),
         torchvision.transforms.RandomApply([
             torchvision.transforms.RandomAdjustSharpness(sharpness_factor=80),
-            AddGaussianNoise(mean=1, std=0.005, thresh=0.3),
+            AddGaussianNoise(mean=0, std=1),
             ])
     ]
 )
