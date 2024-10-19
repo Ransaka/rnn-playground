@@ -10,7 +10,7 @@ Example taken from MJSynth.
 
 ![Example](./resources/Screenshot%202024-10-19%20at%2008.52.40.png)
 
-However, the model used to train Sinhala CRNN, [SOCR](https://huggingface.co/datasets/Ransaka/SSOCR-V.1)(Sinhala OCR, lol) Dataset is a bit straightforward.
+However, the model used to train Sinhala CRNN, [SSOCR](https://huggingface.co/datasets/Ransaka/SSOCR-V.1)(**S**inhala **S**ynthatic **OCR**, lol) Dataset is a bit straightforward.
 Nevertheless, due to the complex structure of the Sinhala language, building such a comprehensive dataset is a bit tricky. Therefore I am leaving that for later. Therefore the model seems to learn these patterns pretty quickly. As you can see in the training loop, the model almost converged after 30 epochs with batch size 1024.
 
 ## Model
